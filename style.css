@@ -1,6 +1,8 @@
 body{
     background-image: url("./imagens/fundo.jpg") ;
-    max-height: 165%;
+    max-height: 100%;
+    
+
 
 }
 
@@ -87,6 +89,7 @@ body{
     background-color: black; 
     border:10px solid black;
     padding: 300px;
+    
     padding-left: 9%;
     opacity: 0.7;
     
@@ -95,16 +98,17 @@ body{
 }
 
 #box1{
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
-    
+    padding-bottom: 130%;
     background-color: black; 
     max-width:165px;
     padding: 37%;
     padding-left: 63%;
     opacity: 0.5;
-    height: 30%;
+    
+    height: 54.9%;
 }
 
 #box2{
@@ -114,10 +118,11 @@ body{
     background-color: black; 
     top: 130%;
     padding: 37%;
-    padding-bottom: 40%;
-    height: 0.%;
+    padding-top: 1%;
+    padding-bottom: 17.4%;
     padding-left: 63%;
     opacity: 0.7;
+    height: 39%;
 }
 
 #final{
